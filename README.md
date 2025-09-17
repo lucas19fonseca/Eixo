@@ -155,16 +155,3 @@ Para uma aplicação em produção, considere:
 4. **Rate Limiting:** express-rate-limit
 5. **Logs:** Winston ou similar
 6. **Testes:** Jest ou Vitest
-
-## 📞 Suporte
-
-Se você encontrar problemas durante o deploy:
-
-1. Verifique os logs na dashboard da Vercel
-2. Certifique-se de que todos os arquivos estão no lugar correto
-3. Confirme que o `package.json` está configurado corretamente
-4. Teste localmente primeiro com `npm run dev`
-
----
-
-**URL da API após deploy:** `https://seu-projeto.vercel.app`
